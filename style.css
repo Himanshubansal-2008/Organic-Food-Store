@@ -1,12 +1,32 @@
-.a {
-    color: white;
+.top-bar {
+    color: rgb(252,246,242);
     text-align: center;
     width: 100%;
-    background-color: green;
+    background-color: rgb(40,133,86);
     padding: auto; 
+    text-decoration: blanchedalmond;
+    height: 30px;
 }
 
-nav {
-    background-color: green;
-    text-align: center;
+.navbar {
+    background-color: rgb(40,133,86);
+    text-align: right;
+    font-weight: bolder;
+    
+    
+    font-size: 37px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar, .navbar {
+  margin-top: 0;
+  padding-top: 0;
+}
+
