@@ -58,3 +58,30 @@
     text-align: center;
 
 }
+
+#app{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+#app div{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+ }
+#app img{
+    max-width: 50%;
+    height: auto;
+}
+#app button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+ #app button:hover{
+     background-color: #218838;
+}
+
